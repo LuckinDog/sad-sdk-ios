@@ -12,7 +12,7 @@ let package = Package(
             name: "SensorsAdvertising",
             targets: ["SensorsAdvertising"]),
     ],
-    dependencies: [.package(url: "https://github.com/sensorsdata/sa-sdk-ios-spm.git", .upToNextMajor(from: "4.3.0"))],
+    dependencies: [.package(name: "SensorsAnalyticsSDK", url: "https://github.com/sensorsdata/sa-sdk-ios-spm.git", from: "4.3.0")],
     targets: [
         .binaryTarget(
             name: "SensorsAdvertising",
